@@ -12,6 +12,5 @@ public class APActivity extends Activity {
 		setContentView(R.layout.main);
 		// 初期加载时不显示title
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		super.onCreate(savedInstanceState);
     }
 }
